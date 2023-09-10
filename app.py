@@ -1,3 +1,5 @@
+pip install Pillow
+pip install streamlit
 import streamlit as st
 from PIL import Image, ImageOps
 import io
