@@ -19,7 +19,7 @@ def get_image_download_link(buffer, file_format, label, index):
 def main():
     st.title("Label Your Images")
 
-    uploaded_files = st.file_uploader("Choose images", accept_multiple_files=True, max_uploaded_files=10)
+    uploaded_files = st.file_uploader("Choose images")
     label = st.text_input("Enter desired label for renaming:")
 
     # Sidebar menu for adjustments
