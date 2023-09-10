@@ -1,3 +1,4 @@
+pip install streamlit Pillow
 # Required Libraries
 import streamlit as st
 from PIL import Image, ImageOps
